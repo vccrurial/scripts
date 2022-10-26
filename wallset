@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+wallDir="$HOME/wallpapers"
+
+wal -i $wallDir/$1;
+rm ~/.Xresources
+cp ~/.cache/wal/colors.Xresources ~/.Xresources
+feh --bg-fill $wallDir/$1
