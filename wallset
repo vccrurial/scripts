@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-wallDir="$HOME/wallpapers"
+wallDir="$HOME/.wallpapers"
 
 wal -i $wallDir/$1;
 rm ~/.Xresources
